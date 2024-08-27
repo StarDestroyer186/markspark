@@ -1,0 +1,130 @@
+[10-Sep-2018 14:34:43 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 16
+[11-Sep-2018 11:35:46 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 145
+[11-Sep-2018 13:19:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 116
+[11-Sep-2018 15:43:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare User_model::isUserExists() in /home/piexxiweb/public_html/tdsitr/application/models/User_model.php on line 351
+[11-Sep-2018 17:13:06 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 109
+[11-Sep-2018 17:13:48 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 109
+[11-Sep-2018 17:15:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 109
+[11-Sep-2018 17:17:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 137
+[12-Sep-2018 12:18:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 384
+[12-Sep-2018 16:44:00 Asia/Kolkata] password_hash: $2a$10$3a73655509af28e316ba3u/teMb2am2mXpZg4J3y/zV./kRtxpnmy
+[12-Sep-2018 16:44:00 Asia/Kolkata] PHP Fatal error:  Call to a member function getPassword() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Login.php on line 24
+[12-Sep-2018 16:45:46 Asia/Kolkata] password_hash: $2a$10$61cc68948406a47f71df4uA1tHP58sL8wupLX77TFTNqdRKxa3l9C
+[12-Sep-2018 16:45:52 Asia/Kolkata] password_hash: $2a$10$37d06730e731d7d234d64OvNFv/GBp.dohVLmNFDagtWT21HfmtKG
+[12-Sep-2018 16:45:59 Asia/Kolkata] password_hash: $2a$10$88f6f7b1fe97da215fb6cuZSAmZgiOmwYamRyYI8TddIyiiEZnGyi
+[12-Sep-2018 16:46:40 Asia/Kolkata] password_hash: $2a$10$45365958b461218bd39aeO3rUlIpXudm9KeecGKkmfbL44fjxl9yK
+[12-Sep-2018 16:46:45 Asia/Kolkata] password_hash: $2a$10$4efc34a96e9383f2fb56auk.PviBujrB97dg4UQCYwSvr47.4rRSC
+[12-Sep-2018 16:46:47 Asia/Kolkata] password_hash: $2a$10$68ce8b9f10910018de0fduvDzDV1vW3vauL3Gg81EtJ4dlzyQAVmO
+[14-Sep-2018 15:06:21 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[14-Sep-2018 15:07:10 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[14-Sep-2018 15:08:45 Asia/Kolkata] PHP Fatal error:  Call to a member function checkCandidateExistsById() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 17
+[14-Sep-2018 15:10:52 Asia/Kolkata] PHP Fatal error:  Call to a member function checkCandidateExistsById() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 17
+[14-Sep-2018 15:11:07 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[14-Sep-2018 15:11:16 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[14-Sep-2018 15:13:12 Asia/Kolkata] PHP Fatal error:  Call to a member function checkCandidateExistsById() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 17
+[14-Sep-2018 15:19:36 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[14-Sep-2018 15:22:26 Asia/Kolkata] PHP Fatal error:  Call to a member function isEmailMobileExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 57
+[15-Sep-2018 13:59:34 Asia/Kolkata] PHP Fatal error:  Call to a member function getAllEnquiry() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Tdsenquiry.php on line 11
+[15-Sep-2018 14:00:26 Asia/Kolkata] PHP Fatal error:  Call to a member function isUserExists() on null in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 98
+[17-Sep-2018 13:16:15 Asia/Kolkata] PHP Fatal error:  Call to undefined method User_Model::usersExists() in /home/piexxiweb/public_html/tdsitr/application/controllers/Api.php on line 428
+[17-Sep-2018 15:17:49 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::affected_rows() in /home/piexxiweb/public_html/tdsitr/application/models/User_Model.php on line 590
+[17-Sep-2018 17:50:03 Asia/Kolkata] 220-linux2301.dnsboot.com ESMTP Exim 4.91 #1 Mon, 17 Sep 2018 08:20:03 -0400 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+<br /><pre>hello: 250-linux2301.dnsboot.com Hello piexxi.in [198.136.58.186]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+</pre><pre>from: 250 OK
+</pre><pre>to: 501 <>: missing or malformed local part
+</pre>The following SMTP error was encountered: 501 <>: missing or malformed local part
+<br /><pre>quit: 221 linux2301.dnsboot.com closing connection
+</pre>Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Mon, 17 Sep 2018 17:50:03 +0530
+Content-type: text/html
+From: &quot;Piexxi Technology&quot; &lt;admin@piexxi.in&gt;
+Return-Path: &lt;admin@piexxi.in&gt;
+Subject: =?ISO-8859-1?Q?=56=65=72=69=66=69=63=61=74=69=6F=6E=20=43=6F=64=65?=
+Reply-To: &lt;admin@piexxi.in&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@piexxi.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;5b9f9bf377488@piexxi.in&gt;
+Mime-Version: 1.0
+
+
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hello  , &lt;br /&gt;
+&lt;br /&gt;
+Your verification code is: 8197&lt;br /&gt;
+&lt;br /&gt;
+Customer Care : &lt;b&gt; +91 86000 10310 &lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+Email : &lt;b&gt; support@piexxi.in &lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+We are happy to help you.&lt;br /&gt;
+&lt;br /&gt;
+Yours Sincerely,&lt;br /&gt;
+Admin&lt;br /&gt;
+Piexxi Technology LLP&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color='red'&gt; This is an auto generated mail, please do not reply to
+this mail.&lt;/font&gt;
+</pre>
+[17-Sep-2018 17:57:04 Asia/Kolkata] 220-linux2301.dnsboot.com ESMTP Exim 4.91 #1 Mon, 17 Sep 2018 08:27:04 -0400 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+<br /><pre>hello: 250-linux2301.dnsboot.com Hello piexxi.in [198.136.58.186]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+</pre><pre>from: 250 OK
+</pre><pre>to: 501 <>: missing or malformed local part
+</pre>The following SMTP error was encountered: 501 <>: missing or malformed local part
+<br /><pre>quit: 221 linux2301.dnsboot.com closing connection
+</pre>Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Mon, 17 Sep 2018 17:57:04 +0530
+Content-type: text/html
+From: &quot;Piexxi Technology&quot; &lt;admin@piexxi.in&gt;
+Return-Path: &lt;admin@piexxi.in&gt;
+Subject: =?ISO-8859-1?Q?=56=65=72=69=66=69=63=61=74=69=6F=6E=20=43=6F=64=65?=
+Reply-To: &lt;admin@piexxi.in&gt;
+User-Agent: CodeIgniter
+X-Sender: admin@piexxi.in
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;5b9f9d9845cc5@piexxi.in&gt;
+Mime-Version: 1.0
+
+
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hello , &lt;br /&gt;
+&lt;br /&gt;
+Your verification code is: 3258&lt;br /&gt;
+&lt;br /&gt;
+Customer Care : &lt;b&gt; +91 86000 10310 &lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+Email : &lt;b&gt; support@piexxi.in &lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+We are happy to help you.&lt;br /&gt;
+&lt;br /&gt;
+Yours Sincerely,&lt;br /&gt;
+Admin&lt;br /&gt;
+Piexxi Technology LLP&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color='red'&gt; This is an auto generated mail, please do not reply to
+this mail.&lt;/font&gt;
+</pre>
