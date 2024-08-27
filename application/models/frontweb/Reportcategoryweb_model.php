@@ -73,4 +73,30 @@ class Reportcategoryweb_model extends CI_model {
         }   
     } 
 
+	public function getReportCategoryListByKeyword($keyword) {
+		try {
+			$this->db->select('report_category_detail_title, report_category_detail_id');
+			$this->db->from('tbl_report_category_details');
+			$this->db->like('report_category_detail_title', $keyword);
+			$selquery = $this->db->get();
+			
+			if ($selquery->num_rows() > 0) {
+				return $selquery->result();
+			} else {
+				return false;
+			}
+		} catch (Exception $ex) {
+			error_log($ex->getMessage());
+			echo $ex->getMessage();
+			return false;
+		}
+	}
+
+	public function insert_form_data($data) {
+        return $this->db->insert('tbl_modal_form', $data);
+    }
+	
+	public function insert_submission($data) {
+        return $this->db->insert('contact_form_submissions', $data);
+    }
 }

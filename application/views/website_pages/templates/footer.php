@@ -1,41 +1,52 @@
 <script>
-  const data = [
-    { "name": "Report 1", "url": "reports-details.php" },
-    { "name": "Report 2", "url": "reports-details.php" },
-    { "name": "Monthly Report", "url": "reports-details.php" },
-    { "name": "Yearly Summary", "url": "reports-details.php" },
-    { "name": "Weekly Analysis", "url": "reports-details.php" }
-  ];
-
   document.getElementById('searchInput').addEventListener('input', function () {
-    const query = this.value.toLowerCase();
+    let query = this.value.trim().toLowerCase(); // Trim spaces and convert to lowercase
     const dropdown = document.getElementById('dropdown');
-    dropdown.innerHTML = '';
+    dropdown.innerHTML = ''; // Clear previous results
 
     if (query.length === 0) {
       dropdown.style.display = 'none';
       return;
     }
 
-    const filteredData = data.filter(item => item.name.toLowerCase().includes(query));
+    // Perform fetch request to get data from the server
+    fetch('<?= base_url('Web/report_details_on_keyup') ?>/' + encodeURIComponent(query))
+      .then(response => response.json()) // Parse the JSON from the response
+      .then(data => {
+        if (data.status === "success") {
+          // Ensure data.data is an array before filtering
+          const items = Array.isArray(data.data) ? data.data : [];
+          
+          const filteredData = items.filter(item =>
+            item.report_category_detail_title.toLowerCase().includes(query)
+          );
 
-    if (filteredData.length === 0) {
-      dropdown.style.display = 'none';
-      return;
-    }
+          if (filteredData.length === 0) {
+            dropdown.style.display = 'none';
+            return;
+          }
 
-    filteredData.forEach(item => {
-      const link = document.createElement('a');
-      link.href = item.url;
-      link.textContent = item.name;
-      link.className = 'dropdown-item';
-      dropdown.appendChild(link);
-    });
+          filteredData.forEach(item => {
+            const link = document.createElement('a');
+			link.href = `<?= base_url('web/report_details/') ?>${item.report_category_detail_id}`;
+            link.textContent = item.report_category_detail_title;
+            link.className = 'dropdown-item';
+            dropdown.appendChild(link);
+          });
 
-    dropdown.style.display = 'block';
+          dropdown.style.display = 'block';
+        } else {
+          dropdown.innerHTML = '<div class="alert alert-warning">' + data.message + '</div>';
+          dropdown.style.display = 'block';
+        }
+      })
+      .catch(error => {
+        dropdown.innerHTML = '<div class="alert alert-danger">An error occurred: ' + error + '</div>';
+        dropdown.style.display = 'block';
+      });
   });
-
 </script>
+
 <!-- ============footer section =============-->
 
  <footer class="footer">
